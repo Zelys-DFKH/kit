@@ -1,5 +1,26 @@
 # @sveltejs/kit
 
+## 2.59.0
+### Minor Changes
+
+
+- breaking: on the server, make the promise returned from `refresh` represent adding the refresh to the map, not the time it takes to run the remote function ([#15705](https://github.com/sveltejs/kit/pull/15705))
+
+
+- feat: experimental `query.live` function ([#15705](https://github.com/sveltejs/kit/pull/15705))
+
+
+### Patch Changes
+
+
+- fix: empty call to `.updates()` on a command/form invocation means "don't update anything" ([#15705](https://github.com/sveltejs/kit/pull/15705))
+
+
+- fix: make sure queries always get started correctly ([#15705](https://github.com/sveltejs/kit/pull/15705))
+
+
+- fix: allow plain functions as overrides in `updates` ([#15705](https://github.com/sveltejs/kit/pull/15705))
+
 ## 2.58.0
 ### Minor Changes
 
